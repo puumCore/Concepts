@@ -13,8 +13,6 @@ public class Main {
         try {
             File file = new File("C:\\Users\\---\\Desktop\\Book1.xlsx");
             Excel excel = new Assistant();
-            /*excel.write_to_file(file);
-            System.out.println("Completed writing to file");*/
             excel.create_table(file);
             System.out.println("Completed creating table to file");
         } catch (IOException e) {
